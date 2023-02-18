@@ -1,0 +1,41 @@
+/* Write your CSS code here */
+.list-container-blog-item {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.each-blog-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-style {
+  color: #12022f;
+  font-weight: bold;
+}
+
+.description {
+  color: #9aa5b1;
+}
+
+.date-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.date {
+  color: #9aa5b1;
+}
+
+.horizontal-line {
+  color: #9aa5b1;
+  width: 100%;
+}
